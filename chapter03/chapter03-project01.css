@@ -1,0 +1,160 @@
+html
+{
+  margin: 0vw;
+  padding: 0vw;
+  vertical-align: baseline;
+  background-color: #264d73;
+}
+
+header, footer {
+  color:white;
+  background-color: #306271;
+  margin: 0em 5vw 2vw 5vw;
+}
+
+/*Header and Title*/
+#title {
+  color: white;
+  font-size: 3.5vw;
+  padding-left: .5vw;
+  padding-top: 1vw;
+}
+
+#titleDescription {
+  font-size: 1.5vw;
+  color:white;
+  margin-left: .5vw;
+  margin-bottom: 1vw;
+}
+
+h1{
+  border: solid;
+  border-color: black;
+}
+
+p {
+   padding: 0em 0em 0em .25vw;
+   margin: 0vw;
+   color: black;
+ }
+
+/*Header Navigations*/
+nav {
+  color: #00ccff;
+  background-color: white;
+  opacity: .5;
+  font-size: 1.75vw;
+  padding: .5vw 0vw .25vw .5vw;
+}
+
+section {
+  background-color: white;
+  margin: 0em 5vw 2vw 5vw;
+}
+
+/*Main Article Section*/
+#description {
+  font-size: 2.5vw;
+  padding: 1vw 0vw 0vw 0vw;
+  margin: 0vw .5vw 0vw .5vw;
+  border-bottom: solid;
+  border-color: grey;
+  border-width: thin;
+}
+
+#photoCredit{
+  font-style: italic;
+  font-size: 1.5vw;
+  padding: 0.5vw 0vw 0vw .5vw;
+  margin-bottom: .5vw;
+  color: grey;
+}
+#mainPhotoDescription {
+  font-size: 2vw;
+  padding-left: .5vw;
+  padding-bottom: .5vw;
+}
+
+#mainPicture {
+  width: 60%;
+  height: 60%;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  padding: .5vw;
+  margin: .5vw .5vw 0vw .5vw;
+}
+
+#mainPictureSubTitle {
+  color: grey;
+  font-size: 1.75vw;
+  padding: 0vw 0vw .5vw .5vw;
+}
+
+/*Social Media Share buttons*/
+#share {
+  font-size: 120%;
+  width: 53%;
+  background-image: url("images/gray-gradient.gif");
+  background-size: contain;
+  background-color: #cccccc;
+  border-style: solid;
+  border-width: thin;
+  border-radius: .25em;
+  padding: 1vw 4vw .5vw 1vw;
+  margin-left: .5vw;
+}
+
+/*Related photos*/
+#relatedPhotos{
+  font-size: 2vw;
+  border-bottom: solid;
+  border-color: black;
+  border-width: thin;
+  margin: 3vw .5vw .5vw .5vw;
+}
+
+.pictures {
+  width: 18%;
+  margin-left: .5vw;
+}
+
+/*Review Section*/
+#reviews{
+  font-size: 1.75vw;
+  border-bottom: solid;
+  border-color: black;
+  border-width: thin;
+  margin: 1.5vw .5vw .5vw .5vw;
+
+}
+
+.reviewTitle {
+  color: grey;
+  font-style: italic;
+  font-size: 1.5vw;
+  margin: 0vw .5vw 0vw .5vw;
+}
+
+.reviewDescription {
+  font-size: 1.5vw;
+  border-bottom-style: dotted;
+  border-color: grey;
+  border-width: thin;
+  margin: 0vw .5vw 1.5vw .5vw;
+}
+
+/*Footer and Copyright*/
+#footerNav {
+  background-color: #306271;
+  color: #00ccff;
+  font-size: 100%;
+  margin: .5vw 0em .5vw 0vw;
+}
+
+#copyright {
+  color: white;
+  font-size: 1.5vw;
+  margin-left: .5vw;
+  font-style: italic;
+}

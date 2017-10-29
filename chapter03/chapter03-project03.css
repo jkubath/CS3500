@@ -1,0 +1,84 @@
+
+
+html {
+  background-image: url("images/art-background4.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+  margin-left: 10vw;
+}
+
+header {
+  background-color: white;
+  width: 42%;
+  height: 150%;
+  padding-top: .2vw;
+  padding-left: 1vw;
+  padding-bottom: 2vw;
+  margin-bottom: 0vw;
+
+}
+
+#mainTitle {
+  font-family: 'Six Caps', Arial;
+  font-style: normal;
+  font-size: 6vw;
+  font-weight: ultra-bold;
+  padding: 0vw;
+  margin: 0vw;
+}
+
+#mainTitleDescription {
+  font-size: 1.6vw;
+  padding: 0vw;
+  margin: 0vw 0vw 1vw 0vw;
+
+}
+
+article {
+  width: 68%;
+  background: rgba(255, 255, 255, .3);
+  margin-top: 10vw;
+}
+
+#articleTitle {
+  padding: 1vw 0vw 1vw 1vw;
+  background: rgba(255, 255, 255, .6);
+  font-size: 3vw;
+  margin: 0vw;
+}
+
+article p {
+  font-size: 3vw;
+  margin: 0vw;
+  padding: 3vw 0vw 1vw 1vw;
+}
+
+#timeline {
+  color: white;
+  background: rgba(0, 0, 0, .4);
+  width: 70%;
+  padding: 1.5vw 0vw 1.5vw 1vw;
+  margin: 1vw 0vw 1vw 1vw;
+
+}
+
+footer {
+  font-size: 2vw;
+  padding: 2vw 0vw 0vw 1.5vw;
+  background-color: white;
+
+}
+
+a {
+  border-bottom: dotted;
+  border-color: black;
+  border-width: thin;
+  padding: 0vw;
+  text-decoration: none;
+
+}
